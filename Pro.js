@@ -1,8 +1,7 @@
 import React from 'react'
 
-export default function Pro() {
+export default function pro() {
   return (
-    <>
     <section className="service" id="service">
     <div className="container">
       <h1 className="sub-title">My <span>Service</span></h1>
@@ -43,6 +42,6 @@ export default function Pro() {
       </div>
     </div>
   </section>
-    </>
+  
   )
 }

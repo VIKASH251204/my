@@ -30,7 +30,7 @@ export default function Home() {
     <div className="home-img">
       <div className="img-box">
         <div className="img-item">
-          <img src="home.png" alt=""/>
+          <img src="home.png" alt />
         </div>
       </div>
     </div>

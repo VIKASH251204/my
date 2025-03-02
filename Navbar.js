@@ -4,7 +4,7 @@ export default function Navbar() {
   return (
     <>
     <nav className="navbar">
-    <a href="/" className="logo">Portfolio</a>
+    <a href="#" className="logo">Portfolio</a>
     <ul>
       <li><a href="#home">Home</a></li>
       <li><a href="#about">About</a></li> 
@@ -17,7 +17,7 @@ export default function Navbar() {
   {/* toggle mode */}
   <nav className="navbar bg-body-#1F242D fixed-top" id='toggle-menu' >
   <div className="container-fluid">
-    <a className="navbar-brand" style={{color:'white', fontSize:'30px', fontWeight:'700'}} href="/">Portfolio</a>
+    <a className="navbar-brand" style={{color:'white', fontSize:'30px', fontWeight:'700'}} href="#">Portfolio</a>
     <button className="navbar-toggler bg-white" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasNavbar" aria-controls="offcanvasNavbar" aria-label="Toggle navigation">
       <span className="navbar-toggler-icon"></span>
     </button>

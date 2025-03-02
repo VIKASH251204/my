@@ -1,9 +1,10 @@
 import React from 'react'
 
-export default function Contact() {
+export default function contact() {
   return (
     <>
-    <section className="contact" id="contact">
+    {/* contact section start */}
+  <section className="contact" id="contact">
     <div className="contact-text">
       <h2>Contact <span>Me</span></h2>
       <h4>Let's work Together</h4>
@@ -39,6 +40,7 @@ export default function Contact() {
       </form>
     </div>
   </section>
+  
     </>
   )
 }

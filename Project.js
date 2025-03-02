@@ -1,15 +1,17 @@
 import React from 'react'
 
-export default function Project() {
+export default function project() {
   return (
     <>
-    <section className="Portfolio-project">
+    
+  {/* Project Section Start */}
+  <section className="Portfolio-project">
     <div id="Portfolio">
       <div className="main-text" id="project">
         <h2>Latest <span>Project</span></h2>
         <div className="portfolio-content">
           <div className="row">
-            <img src="5555.png" alt="" />
+            <img src="5555.png" alt=""/>
             <div className="layer">
               <h5>HTML/CSS</h5>
               <p>
@@ -33,6 +35,7 @@ export default function Project() {
       </div>
     </div>
   </section>
+  
     </>
   )
 }

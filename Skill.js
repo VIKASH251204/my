@@ -3,7 +3,8 @@ import React from 'react'
 export default function Skill() {
   return (
     <>
-    <h1 className="sub-title">My <span>Skills</span></h1>
+    {/* skill section start */}
+  <h1 className="sub-title">My <span>Skills</span></h1>
   <section className="skill-container1">
     <div className="container1" id="skills">
       <h1 className="heading1">Technical Skills</h1>
@@ -35,17 +36,6 @@ export default function Skill() {
             <span />
           </div>
         </div>
-
-        <div className="bar">
-          <i class="fa-brands fa-react" style={{"color":"#74C0FC"}} />
-          <div className="info">
-            <span>React</span>
-          </div>
-          <div className="progress-line React">
-            <span />
-          </div>
-        </div>
-
       </div>
     </div>
     <div className="container1">
@@ -86,6 +76,6 @@ export default function Skill() {
       </div>
     </div>
   </section>
-    </>
+  </>
   )
 }
